@@ -1,0 +1,18 @@
+[project]
+name = "abstraccion-de-clientes"
+version = "0.1.0"
+description = "Abstracción de clientes y configuración robusta."
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic",
+    "openai",
+    "anthropic",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["llm"]
+py-modules = ["ejercicio"]
